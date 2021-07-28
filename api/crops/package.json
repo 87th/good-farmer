@@ -4,13 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx ts-node index.ts",
+    "start": "ts-node index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "António Santos",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^16.4.5",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
   }
 }
