@@ -4,4 +4,4 @@ const tomato = {
   name: "tomato",
 } as Crop;
 
-console.log(tomato);
+console.log(`let's grow ${tomato.name}`);
